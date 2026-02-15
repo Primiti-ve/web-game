@@ -1,0 +1,16 @@
+{
+  "name": "web-game-root",
+  "workspaces": ["pkgs/*"],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "bun run toolkit/build.ts && babel out -d dist"
+  }
+}

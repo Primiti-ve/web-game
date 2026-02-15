@@ -1,0 +1,13 @@
+{
+  "name": "web-game-core",
+  "module": "src/index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {}
+}
